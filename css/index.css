@@ -202,6 +202,20 @@ table{
         height: 45px;
         border-color: var(--LIGHTBLUE);
 }
+
+.newsflashContainer {
+        display: grid;
+}
+
+.honoringTerryPratchett {
+        grid-column-start: 1;
+        grid-column-end: 4;
+}
+
+#terryPratchett {
+        height: 300px;
+}
+
 .newsflash {
 	text-align:center;
 	margin:12px 0;
